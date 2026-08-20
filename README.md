@@ -119,6 +119,15 @@ It scans recursively and only touches recognized WhatsApp media names.
 - Do not disconnect drives while a transfer is running.
 - The script never overwrites an existing destination file; it picks a new name.
 
+## Troubleshooting
+
+- **Files land in the wrong month:** install `exiftool`; without it the script
+  may fall back to filesystem dates.
+- **Permission denied on an external drive:** grant Terminal Full Disk Access
+  and reconnect the drive.
+- **You need to undo a move:** restore from your backup. Use `--mode copy`
+  until the dry run looks correct.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

@@ -121,6 +121,15 @@ Escanea recursivamente y solo toca nombres reconocidos de WhatsApp.
 - No desconectes discos durante una transferencia.
 - El script nunca sobrescribe un archivo existente; elige un nombre nuevo.
 
+## Solución de problemas
+
+- **Los archivos caen en el mes equivocado:** instalá `exiftool`; sin él, el
+  script puede usar las fechas del sistema de archivos.
+- **Permiso denegado en un disco externo:** dale a Terminal acceso completo al
+  disco y reconectá la unidad.
+- **Necesitás deshacer un movimiento:** restaurá desde tu respaldo. Usá
+  `--mode copy` hasta que el dry run se vea correcto.
+
 ## Licencia
 
 MIT — ver [LICENSE](LICENSE).
