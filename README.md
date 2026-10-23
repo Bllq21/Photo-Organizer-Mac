@@ -1,5 +1,7 @@
 # Photo Organizer (macOS)
 
+**English** · [Español](README.es.md)
+
 A command-line tool that takes a messy folder of photos and videos and files it
 into a clean `YYYY/MM` library. Built for large local and external-drive photo
 collections where duplicates, RAW+JPG pairs, DJI sequences, and inconsistent
